@@ -4,7 +4,7 @@ DATABASE_SETTINGS = {
 	'db_name': 'blogs',
 	'username': '',
 	'password': '',
-	'port': 27017 # default mongod port
+	'port': 27017, # default mongod port
 	'host': ''
 }
 
