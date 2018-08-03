@@ -3,7 +3,7 @@
 import pymongo
 from pymongo import MongoClient
 #from base_settings.settings import DATABASE_SETTINGS
-from constants import *
+from constants import BLOG_POST_FIELDS
 
 client = MongoClient(port=27017)
 db = client.blogs
